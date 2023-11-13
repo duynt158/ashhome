@@ -87,6 +87,7 @@ export type HomePageDocument<Lang extends string = string> =
   >;
 
 type PageDocumentDataSlicesSlice =
+  | BeforeAndAfterCarouselSlice
   | ContactPageContactFormSlice
   | ContactPhoneAndEmailSlice
   | GetInTouchSlice
@@ -413,6 +414,116 @@ type BbbAccreditedSliceVariation = BbbAccreditedSliceDefault;
 export type BbbAccreditedSlice = prismic.SharedSlice<
   "bbb_accredited",
   BbbAccreditedSliceVariation
+>;
+
+/**
+ * Primary content in *BeforeAndAfterCarousel → Primary*
+ */
+export interface BeforeAndAfterCarouselSliceDefaultPrimary {
+  /**
+   * header field in *BeforeAndAfterCarousel → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: before_and_after_carousel.primary.header
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  header: prismic.KeyTextField;
+
+  /**
+   * description field in *BeforeAndAfterCarousel → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: before_and_after_carousel.primary.description
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  description: prismic.RichTextField;
+
+  /**
+   * before black text field in *BeforeAndAfterCarousel → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: before_and_after_carousel.primary.before_black_text
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  before_black_text: prismic.KeyTextField;
+
+  /**
+   * after black text field in *BeforeAndAfterCarousel → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: before_and_after_carousel.primary.after_black_text
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  after_black_text: prismic.KeyTextField;
+
+  /**
+   * image gold text field in *BeforeAndAfterCarousel → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: before_and_after_carousel.primary.image_gold_text
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  image_gold_text: prismic.KeyTextField;
+}
+
+/**
+ * Primary content in *BeforeAndAfterCarousel → Items*
+ */
+export interface BeforeAndAfterCarouselSliceDefaultItem {
+  /**
+   * before carousel images field in *BeforeAndAfterCarousel → Items*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: before_and_after_carousel.items[].before_carousel_images
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  before_carousel_images: prismic.ImageField<never>;
+
+  /**
+   * after carousel images field in *BeforeAndAfterCarousel → Items*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: before_and_after_carousel.items[].after_carousel_images
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  after_carousel_images: prismic.ImageField<never>;
+}
+
+/**
+ * Default variation for BeforeAndAfterCarousel Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type BeforeAndAfterCarouselSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<BeforeAndAfterCarouselSliceDefaultPrimary>,
+  Simplify<BeforeAndAfterCarouselSliceDefaultItem>
+>;
+
+/**
+ * Slice variation for *BeforeAndAfterCarousel*
+ */
+type BeforeAndAfterCarouselSliceVariation = BeforeAndAfterCarouselSliceDefault;
+
+/**
+ * BeforeAndAfterCarousel Shared Slice
+ *
+ * - **API ID**: `before_and_after_carousel`
+ * - **Description**: BeforeAndAfterCarousel
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type BeforeAndAfterCarouselSlice = prismic.SharedSlice<
+  "before_and_after_carousel",
+  BeforeAndAfterCarouselSliceVariation
 >;
 
 /**
@@ -1281,6 +1392,11 @@ declare module "@prismicio/client" {
       BbbAccreditedSliceDefaultPrimary,
       BbbAccreditedSliceVariation,
       BbbAccreditedSliceDefault,
+      BeforeAndAfterCarouselSlice,
+      BeforeAndAfterCarouselSliceDefaultPrimary,
+      BeforeAndAfterCarouselSliceDefaultItem,
+      BeforeAndAfterCarouselSliceVariation,
+      BeforeAndAfterCarouselSliceDefault,
       ContactPageContactFormSlice,
       ContactPageContactFormSliceDefaultPrimary,
       ContactPageContactFormSliceVariation,

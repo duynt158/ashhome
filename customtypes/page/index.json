@@ -17,6 +17,9 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
+            "before_and_after_carousel": {
+              "type": "SharedSlice"
+            },
             "contact_page_contact_form": {
               "type": "SharedSlice"
             },

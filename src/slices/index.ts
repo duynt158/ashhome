@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 
 export const components = {
   bbb_accredited: dynamic(() => import("./BbbAccredited")),
+  before_and_after_carousel: dynamic(() => import("./BeforeAndAfterCarousel")),
   contact_page_contact_form: dynamic(() => import("./ContactPageContactForm")),
   contact_phone_and_email: dynamic(() => import("./ContactPhoneAndEmail")),
   general_page_header: dynamic(() => import("./GeneralPageHeader")),

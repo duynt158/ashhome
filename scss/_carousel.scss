@@ -1,0 +1,28 @@
+.carousel-navigator-inactive {
+  & div {
+    width: 20px;
+    height: 6px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+.carousel-navigator-active {
+  & div {
+    width: 33px;
+    height: 6px;
+    background: linear-gradient(236.11deg, #FEEA95 18.34%, #C69753 90.78%);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+.carousel-navigator-container {
+  display: flex;
+  margin: 0 -3px;
+  & > div {
+    padding: 0 3px;
+    display: inline-block;
+  }
+}

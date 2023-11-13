@@ -1,0 +1,72 @@
+.BeforeAndAfterCarousel {
+  margin-top: 32px;
+  margin-bottom: 48px;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: capitalize;
+    margin: 12px 0 24px;
+    text-align: center;
+    width: 100%;
+
+    @media (min-width: 767px) { 
+        font-size: 40px;
+    }
+  }
+
+  p {
+    color: #8C8C8C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    width: 100%;
+    @media (min-width: 767px) { 
+        font-size: 16px;
+    }
+  }
+
+  .left, .right {
+    position: relative;
+    width: 100%;
+    @media (min-width: 767px) { 
+      width: 50%;
+      padding: 0 24px 0 30px;
+    }
+  }
+  .carousel-navigator {
+    margin-top: 48px;
+  }
+  .left {
+    @media (min-width: 767px) { 
+      padding: 0 24px 0 30px;
+    }
+  }
+  .right {
+    @media (min-width: 767px) { 
+      padding: 0 30px 0 24px;
+    }
+    .carousel-navigator {
+      float: right;
+    }
+  }
+
+  .carousel-header {
+    color: #262626;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 60px */
+    text-transform: capitalize;
+    margin: 15px 0 0 0;
+    text-align: center;
+    margin-bottom: 32px;
+
+    span {
+        display: inline;
+        position: relative;
+    }
+  }
+}

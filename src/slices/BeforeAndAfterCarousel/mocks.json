@@ -1,0 +1,98 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"before_black_text": {
+				"__TYPE__": "FieldContent",
+				"value": "buy",
+				"type": "Text"
+			},
+			"after_black_text": {
+				"__TYPE__": "FieldContent",
+				"value": "stepped",
+				"type": "Text"
+			},
+			"image_gold_text": {
+				"__TYPE__": "FieldContent",
+				"value": "sea",
+				"type": "Text"
+			},
+			"header": {
+				"__TYPE__": "FieldContent",
+				"value": "month",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Folks"
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"before_carousel_images",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea",
+								"width": 5000,
+								"height": 4613
+							},
+							"url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?rect=491%2C0%2C4018%2C4613&w=594&h=682",
+							"width": 594,
+							"height": 682,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 491,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"after_carousel_images",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
+								"width": 3958,
+								"height": 3958
+							},
+							"url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?rect=255%2C0%2C3447%2C3958&w=594&h=682",
+							"width": 594,
+							"height": 682,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 255,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					]
+				]
+			}
+		]
+	}
+]
