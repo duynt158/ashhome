@@ -1,0 +1,89 @@
+.BbbAccredited {
+    text-align: center;
+    padding: 30px 0;
+
+    @media (min-width: 767px) { 
+        padding: 70px 0;
+    }
+
+    .padding {
+        padding: 38px 24px;
+
+        background-image: url('/images/Get_in_touch_mobile.jpg');
+        background-size: cover;
+        border-radius: 24px;
+
+
+        @media (min-width: 767px) { 
+            padding: 72px;
+            background-image: url('/images/Get_in_touch_desktop.jpg');
+            border-radius: 32px;
+        
+        }
+    }
+
+    .flex {
+        justify-content: center;
+    }
+
+    .bbb {
+        max-width: 130px;
+
+        @media (min-width: 400px) { 
+            max-width: 160px;
+        }
+        
+        @media (min-width: 767px) { 
+            max-width: 290px;
+        }
+    }
+
+    .divider {
+        
+        width: 1px;
+        background: $light-blue;
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: top;
+
+        @media (min-width: 400px) { 
+            margin: 0 17px;
+        }
+
+        @media (min-width: 767px) { 
+            margin: 0 32px;
+        }
+    }
+
+    .angi {
+        max-width: 60px;
+        margin-top: 9px;
+
+        @media (min-width: 400px) { 
+            max-width: 80px;
+        }
+
+        @media (min-width: 767px) { 
+            max-width: 148px;
+            margin-top: 14px;
+        }
+    }
+
+    p {
+        background: var(--A, linear-gradient(236deg, $light-yellow 18.34%, $dark-yellow 90.78%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 130%; 
+        max-width: 700px;
+        margin: 20px auto 0;
+
+        @media (min-width: 767px) { 
+            font-size: 32px;
+        }
+    }
+}

@@ -1,0 +1,92 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"image_1": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+					"width": 5243,
+					"height": 3495
+				},
+				"url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?rect=1437%2C0%2C2369%2C3495&w=305&h=450",
+				"width": 305,
+				"height": 450,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 1437,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"image_2": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea",
+					"width": 3500,
+					"height": 2338
+				},
+				"url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?rect=958%2C0%2C1585%2C2338&w=305&h=450",
+				"width": 305,
+				"height": 450,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 958,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"paragraph": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Labore sit deserunt aute aliquip excepteur ut cillum veniam nostrud ad ad laborum sunt voluptate. Ea tempor elit veniam ipsum sint ullamco est esse veniam sit velit id occaecat proident."
+						}
+					}
+				]
+			},
+			"first_header": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Family"
+						}
+					}
+				]
+			},
+			"second_header_black_text": {
+				"__TYPE__": "FieldContent",
+				"value": "aid",
+				"type": "Text"
+			},
+			"second_header_gold_text": {
+				"__TYPE__": "FieldContent",
+				"value": "handsome",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

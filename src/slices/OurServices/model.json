@@ -1,0 +1,70 @@
+{
+  "id": "our_services",
+  "type": "SharedSlice",
+  "name": "OurServices",
+  "description": "OurServices",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "first_header": {
+          "type": "Text",
+          "config": {
+            "label": "First Header",
+            "placeholder": ""
+          }
+        },
+        "second_header_1st_black_text": {
+          "type": "Text",
+          "config": {
+            "label": "Second Header 1st Black Text",
+            "placeholder": ""
+          }
+        },
+        "second_header_gold_text": {
+          "type": "Text",
+          "config": {
+            "label": "Second Header Gold Text",
+            "placeholder": ""
+          }
+        },
+        "second_header_2nd_black_text": {
+          "type": "Text",
+          "config": {
+            "label": "Second Header 2nd Black Text",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "service_image": {
+          "type": "Image",
+          "config": {
+            "label": "Service Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "service_header": {
+          "type": "Text",
+          "config": {
+            "label": "Service Header",
+            "placeholder": ""
+          }
+        },
+        "service_description": {
+          "type": "Text",
+          "config": {
+            "label": "Service Description",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "ashhomeprismic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",    
+    "css": "node-sass --include-path scss scss/globals.scss src/app/globals.css --output-style compressed",
+    "css-dev": "node-sass --include-path scss scss/globals.scss src/app/globals.css",   
+    "start": "next start",
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "@prismicio/client": "^7.3.1",
+    "@prismicio/next": "^1.4.0",
+    "@prismicio/react": "^2.7.3",
+    "clsx": "^2.0.0",
+    "next": "14.0.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@slicemachine/adapter-next": "^0.3.23",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1",
+    "slice-machine-ui": "^1.19.1",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,104 @@
+.HomepageBeforeAndAfter {
+    padding: 32px 0;
+
+    @media (min-width: 767px) { 
+        padding: 50px 0;
+    }
+
+    h2 {
+        color: $light-blue; 
+        font-size: 14px; 
+        font-weight: 700;
+        line-height: 150%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 0 0 10px;
+
+        @media (min-width: 767px) { 
+            font-size: 18px;
+            margin: 0 0 6px;
+        }
+    }
+
+    h3 {
+        color: #262626;
+
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 150%;
+        margin: 12px 0 23px;
+
+        @media (min-width: 767px) { 
+            font-size: 40px;
+            margin: 6px 0 16px;
+        }
+
+        .gold {
+            background: var(--A, linear-gradient(236deg, #FEEA95 18.34%, #C69753 90.78%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+            position: relative;
+            
+
+            &:after {
+                content: '';
+                width: 100%;
+                position: absolute;
+                left: 0px;
+                height: 2px;
+                background: var(--A, linear-gradient(236deg, #FEEA95 18.34%, #C69753 90.78%));
+                bottom: -8px;
+            }
+        }
+
+    }
+
+    p {
+        color: #8C8C8C;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+
+        @media (min-width: 767px) { 
+            font-size: 16px;
+        }
+    }
+
+    .blue-button {
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 12px 0 24px;
+
+        @media (min-width: 767px) { 
+            font-size: 18px;
+            margin: 12px 0 60px;
+        }
+
+    }
+
+    .images {
+        div {
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+
+            @media (min-width: 767px) { 
+                width: 48%;
+            }
+
+            img {
+                width: 50%;
+            }
+        }
+
+        .left {
+            margin: 0 0 24px;
+            @media (min-width: 767px) { 
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "contact_phone_and_email",
+  "type": "SharedSlice",
+  "name": "ContactPhoneAndEmail",
+  "description": "ContactPhoneAndEmail",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "header_h2": {
+          "type": "Text",
+          "config": {
+            "label": "Header h2",
+            "placeholder": ""
+          }
+        },
+        "phone_text": {
+          "type": "Text",
+          "config": {
+            "label": "Phone Text",
+            "placeholder": ""
+          }
+        },
+        "email_text": {
+          "type": "Text",
+          "config": {
+            "label": "Email Text",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

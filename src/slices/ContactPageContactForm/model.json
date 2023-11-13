@@ -1,0 +1,40 @@
+{
+  "id": "contact_page_contact_form",
+  "type": "SharedSlice",
+  "name": "ContactPageContactForm",
+  "description": "ContactPageContactForm",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "header_h2": {
+          "type": "Text",
+          "config": {
+            "label": "Header h2",
+            "placeholder": ""
+          }
+        },
+        "header_h3_black_text": {
+          "type": "Text",
+          "config": {
+            "label": "Header h3 black text",
+            "placeholder": ""
+          }
+        },
+        "header_h3_gold_text": {
+          "type": "Text",
+          "config": {
+            "label": "Header h3 gold text",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

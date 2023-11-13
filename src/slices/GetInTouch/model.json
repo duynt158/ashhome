@@ -1,0 +1,26 @@
+{
+  "id": "get_in_touch",
+  "type": "SharedSlice",
+  "name": "GetInTouch",
+  "description": "GetInTouch",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "paragraph": {
+          "type": "Text",
+          "config": {
+            "label": "Paragraph",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

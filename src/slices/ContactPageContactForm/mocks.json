@@ -1,0 +1,24 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"header_h2": {
+				"__TYPE__": "FieldContent",
+				"value": "line",
+				"type": "Text"
+			},
+			"header_h3_black_text": {
+				"__TYPE__": "FieldContent",
+				"value": "bat",
+				"type": "Text"
+			},
+			"header_h3_gold_text": {
+				"__TYPE__": "FieldContent",
+				"value": "tail",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

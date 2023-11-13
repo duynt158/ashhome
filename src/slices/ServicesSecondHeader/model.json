@@ -1,0 +1,51 @@
+{
+  "id": "services_second_header",
+  "type": "SharedSlice",
+  "name": "ServicesSecondHeader",
+  "description": "ServicesSecondHeader",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "header": {
+          "type": "Text",
+          "config": {
+            "label": "Header",
+            "placeholder": ""
+          }
+        },
+        "header_gold_text": {
+          "type": "Text",
+          "config": {
+            "label": "Header Gold Text",
+            "placeholder": ""
+          }
+        },
+        "paragraph": {
+          "type": "Text",
+          "config": {
+            "label": "Paragraph",
+            "placeholder": ""
+          }
+        },
+        "image_on_left": {
+          "type": "Image",
+          "config": {
+            "label": "Image On Left",
+            "constraint": {
+              "width": 462,
+              "height": 460
+            },
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

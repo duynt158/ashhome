@@ -1,0 +1,156 @@
+.OurServicesSlice {
+    background: #F5F4F8;
+    padding: 32px 0;
+    
+    @media (min-width: 767px) { 
+        padding: 100px 0;
+    }
+
+    .container {
+        justify-content: flex-start;
+    }
+
+    .description {
+        width: 100%;
+        @media (min-width: 1025px) { 
+            width: 48.666666%;
+            margin-right: 2.6666666%;
+            padding-top: 40px;
+        }
+    }
+
+    h2 {
+        color: $light-blue;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 30px; /* 214.286% */
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 16px 0;
+
+        @media (min-width: 767px) { 
+            font-size: 18px;
+        }
+    }
+
+    h3 {
+        color: #262626;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 180%; /* 72px */
+        text-transform: capitalize;
+        margin: 16px 0;
+        
+        @media (min-width: 767px) { 
+            font-size: 40px;
+        }
+
+        span {
+            
+        }
+
+        .gold {
+      
+            margin: 0 10px;
+        }
+    }
+
+    .service {
+        width: 100%;
+        background: #FFF;
+        box-shadow: 0px 35px 35px 0px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        padding: 24px 16px;
+        margin-bottom: 12px;
+
+        @media (min-width: 625px) { 
+            width: 49%;
+        }
+
+
+
+        &:not(.even) {
+            @media (min-width: 625px) { 
+                margin-right: 2%;
+            }
+        }
+        
+
+      
+
+        
+
+        @media (min-width: 1025px) { 
+            border-radius: 12px;
+            padding: 32px 24px;
+            width: 23%;
+            margin-bottom: 2.666666%;
+        }
+
+        &:not(.last) {
+            @media (min-width: 1025px) { 
+                margin-right: 2.6666666%;
+            }
+        }
+
+        img {
+            width: 36px;
+            height: auto;
+            @media (min-width: 767px) { 
+                width: 62px;
+            }
+        }
+
+        h4 {
+            color: #262626;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 150%;
+
+            @media (min-width: 767px) { 
+                font-size: 18px;
+            }
+        }
+
+        p {
+            color: #8C8C8C;
+            font-size: 12px;        
+            font-weight: 400;
+            line-height: 150%;
+           
+            @media (min-width: 767px) { 
+                font-size: 14px;
+            }
+        }
+
+        .read-more {
+            color: #DCBD7C;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 150%;
+            width: 100%;
+            display: block;
+            cursor: pointer;
+            margin-top: 19px;
+
+            @media (min-width: 767px) { 
+                font-size: 16px;
+                margin-top: 30px;
+            }
+
+            svg {
+                float: right;
+            }
+
+            &:hover {
+                color: $dark-blue;
+                svg {
+                    path {
+                        stroke: $dark-blue;
+                    }
+                }
+            }
+        }
+    }
+}

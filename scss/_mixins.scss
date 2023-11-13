@@ -1,0 +1,39 @@
+
+@mixin container-padding {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto;
+
+    @media (min-width: 400px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media (min-width: 767px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @media (min-width: 1000px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    @media (min-width: 1200px) {
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+}
+
+@mixin flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

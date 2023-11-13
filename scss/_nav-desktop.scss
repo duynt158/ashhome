@@ -1,0 +1,91 @@
+@media (min-width: 767px) {
+
+    body.scrolled-down {
+        header {
+            padding-top:10px;
+            padding-bottom: 10px;
+        }
+    }
+    
+    header {
+
+        
+        padding-top: 28px;
+        padding-bottom: 28px;
+        width: 100%;
+        
+        
+
+        .container {
+            height: 44px;
+        }
+
+        .logo {
+            span {
+                padding-left: 18px;
+                font-size: 18px;
+            }
+        }
+
+        .hamburger,.mobile-message,.nav-overlay {
+            display: none;
+            
+        }
+
+        nav {
+            width: 50%;
+            min-width: 455px;
+
+            li {
+                float: left;
+
+                a {
+                    line-height: 44px;
+                    position: relative;
+                    display: inline-block;
+                    img {
+                        position: absolute;
+                        transform: translateX(-50%);
+                        left: 50%;
+                        display: none;
+                        bottom: 8px;
+                    }
+                
+                    &:hover {
+                        span {
+                            background: var(--A, linear-gradient(236deg, $light-yellow 18.34%, $dark-yellow 90.78%));
+                            background-clip: text;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }     
+                        img {
+                            display: block;
+                        }           
+                    }                    
+                }
+
+                &.contact-us {
+                    float: right;
+
+                    a {
+                        padding: 9px 22px;
+                        border-radius: 6px;
+                        border: 1px solid #FFF;
+                        line-height: normal;
+        
+                        &:hover {
+                            background: linear-gradient(78deg, $dark-blue 7.3%, $light-blue 91.24%);
+                            
+                        }
+                    }
+                }
+
+                &:not(.contact-us):not(.last) {
+                    margin-right: 28px;
+                }
+                
+                
+            }
+        }
+    }
+}

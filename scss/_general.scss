@@ -1,0 +1,133 @@
+html {
+    font-family: 'Product Sans', sans-serif;
+
+    * {
+        box-sizing: border-box;
+    }
+    
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 24px;
+
+    @media (min-width: 767px) { 
+        font-size: 62px;
+    }
+}
+
+h2 {
+    font-size: 30px;
+    @media (min-width: 767px) { 
+        font-size: 40px;
+    }
+}
+
+h3 {
+    font-size: 35px;
+    @media (min-width: 767px) { 
+        font-size: 45px;
+    }
+}
+
+h4 {
+    font-size: 30px;
+    @media (min-width: 767px) { 
+        font-size: 35px;
+    }
+}
+
+p {
+    font-size: 14px;
+    @media (min-width: 767px) { 
+        font-size: 16px;
+    }
+}
+
+img, .flex {
+    max-width: 100%;
+}
+
+img, svg {
+    height: auto;
+}
+
+.flex {
+   @include flex;
+}
+
+.flex-nowrap {
+    @include flex;
+    flex-wrap: nowrap;
+}
+
+.container {
+    @include container-padding;
+}
+
+.blue-button {
+    cursor: pointer;
+    color: #FFF;
+
+    text-align: center;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+    min-height: 36px;
+    min-width: 128px;
+    max-width: 400px;
+    padding: 12px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    background: linear-gradient(78deg, $dark-blue 7.3%, $light-blue 91.24%);
+    line-height: 150%;
+    
+
+    @media (min-width: 767px) { 
+        font-size: 18px;    
+        font-weight: 500;    
+        min-height: 56px;
+        padding: 15px 24px 16px 24px;
+    } 
+    &:hover {
+        background: $light-blue;
+    }
+    
+    .arrow {
+        top: 2px;
+        position: relative;
+    }
+}
+
+.gold {
+    background: var(--A, linear-gradient(236deg, #FEEA95 18.34%, #C69753 90.78%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    position: relative;
+    
+
+    &:after {
+        content: '';
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        height: 2px;
+        background: var(--A, linear-gradient(236deg, #FEEA95 18.34%, #C69753 90.78%));
+        bottom: -8px;
+    }
+}
+

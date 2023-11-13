@@ -1,0 +1,71 @@
+{
+  "id": "home_page",
+  "label": "Home page",
+  "format": "page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "page_title": {
+        "type": "Text",
+        "config": {
+          "label": "Page Title",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "get_in_touch": {
+              "type": "SharedSlice"
+            },
+            "bbb_accredited": {
+              "type": "SharedSlice"
+            },
+            "homepage_before_and_after": {
+              "type": "SharedSlice"
+            },
+            "our_services": {
+              "type": "SharedSlice"
+            },
+            "home_page_contact_form": {
+              "type": "SharedSlice"
+            },
+            "two_images_with_cta_on_right": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      }
+    }
+  }
+}

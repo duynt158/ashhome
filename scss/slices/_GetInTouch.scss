@@ -1,0 +1,125 @@
+.GetInTouch {
+    text-align: center;
+    padding: 24px 0;
+
+    @media (min-width: 767px) { 
+        padding: 70px 0;
+    }
+
+    .padding {
+        padding: 24px;
+
+        background-image: url('/images/Accredited_business_mobile.jpg');
+        background-size: cover;
+        border-radius: 24px;
+
+
+        @media (min-width: 767px) { 
+            padding: 72px;
+            background-image: url('/images/Accredited_business_desktop.jpg');
+            border-radius: 32px;
+        
+        }
+    }
+
+    h2 {
+        color: #FFF;
+
+        text-align: center;
+        
+        font-size: 24px;
+    
+        font-weight: 500;
+        line-height: 150%; /* 36px */
+        text-transform: capitalize;
+        margin-top: 0;
+
+        @media (min-width: 767px) { 
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .gold {
+            font-weight: 700;
+        }
+    }
+
+    p {
+        background: var(--A, linear-gradient(236deg, #FEEA95 18.34%, #C69753 90.78%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+
+        font-size: 12px;
+
+        font-weight: 400;
+        line-height: 150%;
+        margin: 25px auto;
+        max-width: 610px;
+
+        @media (min-width: 767px) { 
+            font-size: 18px;
+            margin: 30px auto;
+        }
+    }
+
+    form {
+        max-width: 330px;
+        margin: 0 auto;
+
+        #email-get-in-touch {
+            padding: 14px 18px;
+            border-radius: 8px;
+            border: 1px solid #E8E8E8;
+            width: calc(100% - 65px);
+            background: transparent;
+            color: #fff;
+
+
+            @media (min-width: 1025px) { 
+                padding: 16px 20px;
+                border-radius: 12px;
+                width: calc(100% - 75px);
+            }
+
+            &::placeholder { 
+
+                color: #FFF;
+                opacity: 0.5;
+             
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+
+               
+
+                @media (min-width: 1025px) { 
+                    font-size: 16px;
+                }
+            }
+        }
+        .submit-button {
+            cursor: pointer;
+            position: relative;
+            width: 51px;
+            height: 51px;
+            border-radius: 10px;
+            border: 0;
+            background: var(--A, linear-gradient(236deg, $light-yellow 18.34%, $dark-yellow 90.78%));
+            box-shadow: 0px 1.58727px 2.69837px 0px rgba(49, 49, 49, 0.02), 0px 6.98401px 5.5872px 0px rgba(49, 49, 49, 0.04), 0px 17.14256px 11.14266px 0px rgba(49, 49, 49, 0.05), 0px 33.0153px 21.84089px 0px rgba(49, 49, 49, 0.06), 0px 55.55458px 40.15804px 0px rgba(49, 49, 49, 0.08), 0px 85.7128px 68.57024px 0px rgba(49, 49, 49, 0.10);
+
+
+            @media (min-width: 1025px) { 
+                border-radius: 12px;
+                width: 60px;
+                height: 60px;
+            }
+
+            &:hover {
+                background: $light-yellow;
+            }
+        }
+    }
+}

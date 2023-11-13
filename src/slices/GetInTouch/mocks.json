@@ -1,0 +1,14 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"paragraph": {
+				"__TYPE__": "FieldContent",
+				"value": "as",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

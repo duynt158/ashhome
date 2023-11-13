@@ -1,0 +1,101 @@
+{
+  "id": "service",
+  "type": "SharedSlice",
+  "name": "Service",
+  "description": "Service",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "header_h2": {
+          "type": "Text",
+          "config": {
+            "label": "Header h2",
+            "placeholder": ""
+          }
+        },
+        "header_h3": {
+          "type": "Text",
+          "config": {
+            "label": "Header h3",
+            "placeholder": ""
+          }
+        },
+        "paragraph": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Paragraph",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "header_h4": {
+          "type": "Text",
+          "config": {
+            "label": "Header h4",
+            "placeholder": ""
+          }
+        },
+        "image_1": {
+          "type": "Image",
+          "config": {
+            "label": "Image 1",
+            "constraint": {
+              "width": 257,
+              "height": 296
+            },
+            "thumbnails": []
+          }
+        },
+        "image_2": {
+          "type": "Image",
+          "config": {
+            "label": "Image 2",
+            "constraint": {
+              "width": 191,
+              "height": 225
+            },
+            "thumbnails": []
+          }
+        },
+        "image_3": {
+          "type": "Image",
+          "config": {
+            "label": "Image 3",
+            "constraint": {
+              "width": 173,
+              "height": 167
+            },
+            "thumbnails": []
+          }
+        },
+        "image_4": {
+          "type": "Image",
+          "config": {
+            "label": "Image 4",
+            "constraint": {
+              "width": 257,
+              "height": 355
+            },
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {
+        "service": {
+          "type": "Text",
+          "config": {
+            "label": "Service",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}
